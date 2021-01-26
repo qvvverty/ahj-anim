@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.collapse-container {
+  margin: 30px;
+  width: 800px;
+}
+
+.collapse-btn {
+  display: inline-block;
+  padding: 10px;
+
+  border: 1px solid;
+  border-radius: 5px;
+
+  background-color: rgb(82, 179, 258);
+
+  cursor: pointer;
+}
+
+.collapse-btn:hover {
+  background-color: rgb(52, 149, 228);
+}
+
+.collapse-content-wrapper {
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.collapse-content {
+  max-height: 150px;
+
+  border: 1px lightgray solid;
+
+  transition: 1s;
+}
+
+.collapse-text {
+  padding: 15px;
+}
+
+.hidden {
+  max-height: 0;
+  border: 0;
+}
+
+.next-element {
+  height: 50px;
+  text-align: center;
+
+  border: 1px solid;
+}
